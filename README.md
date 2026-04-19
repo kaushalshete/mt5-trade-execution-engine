@@ -72,3 +72,28 @@ SL: 150 points
 - Percentage-based risk model  
 - Trade logging and analytics  
 - Backtesting module  
+
+## User Interface
+
+The execution panel integrated within MT5:
+
+![Execution UI](mt5_execution_ui.png)
+
+
+## How to Use
+
+1. Attach the script to an MT5 chart  
+2. Enter:
+   - Risk ($)
+   - Stop Loss (points)
+3. Click BUY or SELL  
+4. System calculates lot size automatically  
+5. Trade is executed with defined risk
+
+## Execution Flow
+
+1. User inputs risk and stop loss  
+2. System calculates loss per lot  
+3. Lot size is derived based on fixed risk  
+4. Trade is executed with SL applied  
+5. Optional trailing stop and partial close managed dynamically  
